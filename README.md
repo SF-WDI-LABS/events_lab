@@ -11,8 +11,8 @@ You can find a full list of `event` related methods in jQuery here: http://api.j
 ## Exercises
 
 **Instructions:**  
-* For each exercise, start by opening the `index.html` file for that challenge in your browser. (You can do this from inside Sublime Text by right clicking inside the html file and selecting "Open in Browser").
-* To solve the challenge, you'll need to change each `base.js` file.
+* For each exercise, start by opening the `index.html` file for that challenge in your browser. 
+* To solve the challenge, you'll need to change each `js/app.js` file.
 * Make sure to open your Chrome Developer Console so that you can check for bugs!
 * SOLUTIONS: Solutions are in the `solutions` branch.
 
@@ -22,7 +22,7 @@ You can find a full list of `event` related methods in jQuery here: http://api.j
 ###2. submit
 - **Challenge**: Can you stop the forms from submitting?
     + That's weird. Why does one button reload the same page and the other redirect to youtube?
-    + Hmm... What is the "?" doing in the URL? How did it get there? Try removing it.
+    + Hmm... What is the "?" doing in the URL bar? How and when does it get there? Try removing the "?" and figuring out when it shows up again.
 - Bonus: Instead of redirecting to youtube, let's embed the video in our page instead!
     +  When the user clicks "submit", dynamically insert the embed code into the page (on youtube, click "share" under the video, then click "embed" and copy the html). HINT: The embed code belongs in your javascript, not your html!
 
