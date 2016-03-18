@@ -1,9 +1,15 @@
 console.log("Sanity Check: JS is working!");
 
 $(document).ready(function() {
-  var totaln = $("#left")+ $("#right");
-  $("#left, #right").on("keypress", function add(event){
-  $("#total").change("totaln");
+
+  $("#left, #right").on("change", function add(event){
+    var num1 = parseInt($("#left").val());
+    var num2 = parseInt($("#right").val());
+    var totaln = num1 + num2;
+  $(".confused").val(totaln).val();
+  console.log(totaln);
+
+
   });
 
   $("#time").text(Date.now());
