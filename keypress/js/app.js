@@ -19,30 +19,30 @@ $(document).ready(function(){
   });
 
 });
+// ^^^^^^^^^^^^I was actually super stuck on this one and would definitely not be mad about maybe going over this again
 
-
-//code from Adam as helped by TA
-$(document).ready(function() {
- var startTime;
- var endTime;
- var running = false;
- var totalTime;
- $('body').keyup(function(event){
-   if(event.keyCode === 32){
-     if(running){
-       endTime = Date.now();
-       console.log('end time is: ', endTime);
-       totalTime = ((endTime - startTime)/1000);//
-       console.log('total time is: ', totalTime);
-       running = false;
-       $('#total-time').text(totalTime + " seconds");
-     } else {
-       running = true;
-       startTime = Date.now();
-       console.log('start time is: ', startTime);
-     }
-
-   }
-   console.log(event.keyCode);
- });
-});
+// //code from Adam as helped by TA
+// $(document).ready(function() {
+//  var startTime;
+//  var endTime;
+//  var running = false;
+//  var totalTime;
+//  $('body').keyup(function(event){
+//    if(event.keyCode === 32){
+//      if(running){
+//        endTime = Date.now();
+//        console.log('end time is: ', endTime);
+//        totalTime = ((endTime - startTime)/1000);//
+//        console.log('total time is: ', totalTime);
+//        running = false;
+//        $('#total-time').text(totalTime + " seconds");
+//      } else {
+//        running = true;
+//        startTime = Date.now();
+//        console.log('start time is: ', startTime);
+//      }
+//
+//    }
+//    console.log(event.keyCode);
+//  });
+// });
